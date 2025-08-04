@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Testimonials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .testimonial-section {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .testimonial {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-left: 4px solid #007BFF;
+      background: #f1f1f1;
+      border-radius: 5px;
+    }
+    .testimonial:last-child {
+      margin-bottom: 0;
+    }
+    .customer-name {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .customer-role {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="testimonial-section">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+      <p>"This product has completely changed my life! The quality and service are unmatched."</p>
+      <div class="customer-name">John Doe</div>
+      <div class="customer-role">CEO, Example Corp</div>
+    </div>
+    <div class="testimonial">
+      <p>"I couldn't be happier with my experience. Highly recommend to everyone!"</p>
+      <div class="customer-name">Jane Smith</div>
+      <div class="customer-role">Freelancer</div>
+    </div>
+  </div>
+</body>
+</html>
